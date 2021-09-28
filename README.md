@@ -1,3 +1,11 @@
+# Gitcoin GR11 Bounty for Idle.finance
+
+## Check below new strategy contract and test cases
+
+Yearn: [IdleYearnVaultStrategy.sol](https://github.com/sunnyRK/IdlePerpetual-YieldTranche-GR11/blob/master/contracts/IdleYearnVaultStrategy.sol)  
+TestCases: [IdleYearnVaultStrategy.ts](https://github.com/sunnyRK/IdlePerpetual-YieldTranche-GR11/blob/master/test/IdleYearnVaultStrategy.js)
+
+
 # Idle Perpetual Yield Tranches
 The aim of Idle Perpetual Yield Tranches is to pool capital of users (eg DAI), deposit it into a lending provider (eg Idle Finance) and split the interest received between 2 classes of users with different risk profiles.
 
