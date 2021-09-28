@@ -1,0 +1,57 @@
+{
+  "name": "idle-utils",
+  "description": "Idle utilities repo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Idle-Labs/idle-utils"
+  },
+  "keywords": [
+    "idle",
+    "idle.finance",
+    "yield",
+    "openzeppelin",
+    "react",
+    "dapp",
+    "infura",
+    "metamask",
+    "web3",
+    "web3js",
+    "ethereum"
+  ],
+  "author": "Idle Labs Inc. <info@idle.finance>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Idle-Labs/idle-utils/issues"
+  },
+  "homepage": "https://idle.finance",
+  "scripts": {},
+  "devDependencies": {
+    "@ledgerhq/hw-app-eth": "^5.38.0",
+    "@ledgerhq/hw-transport-node-hid": "^5.38.0",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.0.32",
+    "hardhat": "^2.6.1",
+    "hardhat-abi-exporter": "^2.2.1",
+    "hardhat-contract-sizer": "^2.0.3",
+    "hardhat-etherscan-abi": "^0.1.1",
+    "solidity-coverage": "^0.7.17"
+  },
+  "dependencies": {
+    "@defi-wonderland/smock": "^2.0.1",
+    "@nomiclabs/ethereumjs-vm": "^4",
+    "@nomiclabs/hardhat-etherscan": "^2.1.6",
+    "@nomiclabs/hardhat-solhint": "^2.0.0",
+    "@openzeppelin/contracts": "^4.0.0",
+    "@openzeppelin/contracts-upgradeable": "^4.0.0",
+    "@openzeppelin/hardhat-upgrades": "^1.9.0",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "bignumber.js": "^9.0.1",
+    "dotenv": "^9.0.2",
+    "hardhat-gas-reporter": "^1.0.4"
+  }
+}
